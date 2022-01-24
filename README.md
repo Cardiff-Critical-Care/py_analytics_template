@@ -24,7 +24,7 @@ git push -u origin main
 
 Now the project can be tracked for version control. 
 
-For analytical projects we use Anaconda. Install the default conda environment using the YAML file:
+For analytical projects we use Anaconda. Install the default conda environment using the YAML file. It is best practice to edit this file first and rename the environment to the project name:
 
 ```bash
 conda env create -f conda_env.yml
