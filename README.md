@@ -17,6 +17,7 @@ Rename the project folder with your project title e.g. 'TestProject'. Then assoc
 ```bash
 git commit -m "first commit"
 git branch -M main
+git remote rm origin
 git remote add origin https://github.com/Cardiff-Critical-Care/TestProject.git
 git push -u origin main
 ```
