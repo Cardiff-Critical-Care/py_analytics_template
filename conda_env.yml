@@ -1,5 +1,8 @@
 name: ICUpy
 dependencies:
+  - python=3.9
+  - pip
+  - ipython
   - pandas
   - pytest
   - pytest-cov
@@ -18,3 +21,4 @@ dependencies:
     - seaborn
     - pingouin
     - jupyter_contrib_nbextensions
+    - autopep8
